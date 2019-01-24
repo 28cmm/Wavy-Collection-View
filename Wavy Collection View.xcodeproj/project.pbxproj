@@ -15,6 +15,8 @@
 		28E057CC21F957D800538A59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E057CB21F957D800538A59 /* main.m */; };
 		28E057D621F957D800538A59 /* Wavy_Collection_ViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E057D521F957D800538A59 /* Wavy_Collection_ViewTests.m */; };
 		28E057E121F957D800538A59 /* Wavy_Collection_ViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E057E021F957D800538A59 /* Wavy_Collection_ViewUITests.m */; };
+		28E057F021F95C9B00538A59 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E057EF21F95C9B00538A59 /* MyCollectionViewCell.m */; };
+		28E057F321F95E1B00538A59 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 28E057F221F95E1B00538A59 /* WavyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		28E057DC21F957D800538A59 /* Wavy Collection ViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Wavy Collection ViewUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28E057E021F957D800538A59 /* Wavy_Collection_ViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Wavy_Collection_ViewUITests.m; sourceTree = "<group>"; };
 		28E057E221F957D800538A59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28E057EE21F95C9B00538A59 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		28E057EF21F95C9B00538A59 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		28E057F121F95E1B00538A59 /* WavyFlowLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
+		28E057F221F95E1B00538A59 /* WavyFlowLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,10 @@
 				28E057BF21F957D700538A59 /* ViewController.h */,
 				28E057C021F957D700538A59 /* ViewController.m */,
 				28E057C221F957D700538A59 /* Main.storyboard */,
+				28E057F121F95E1B00538A59 /* WavyFlowLayout.h */,
+				28E057F221F95E1B00538A59 /* WavyFlowLayout.m */,
+				28E057EE21F95C9B00538A59 /* MyCollectionViewCell.h */,
+				28E057EF21F95C9B00538A59 /* MyCollectionViewCell.m */,
 				28E057C521F957D800538A59 /* Assets.xcassets */,
 				28E057C721F957D800538A59 /* LaunchScreen.storyboard */,
 				28E057CA21F957D800538A59 /* Info.plist */,
@@ -263,7 +273,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				28E057C121F957D700538A59 /* ViewController.m in Sources */,
+				28E057F321F95E1B00538A59 /* WavyFlowLayout.m in Sources */,
 				28E057CC21F957D800538A59 /* main.m in Sources */,
+				28E057F021F95C9B00538A59 /* MyCollectionViewCell.m in Sources */,
 				28E057BE21F957D700538A59 /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -444,7 +456,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "compass.Wavy-Collection-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -461,7 +473,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "compass.Wavy-Collection-View";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
